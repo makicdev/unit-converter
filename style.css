@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #141a22;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6943FF;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#unit-inpt {
+    margin: 10px 0px 20px 0px;
+    max-width: 120px;
+    padding: 15px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+#unit-inpt::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.btn {
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.25s;   
+}
+.btn:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+.meterfeet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color: #273549;  
+}
+
+.litersgallons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color: #273549;  
+}
+
+.kilogramspounds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color: #273549;  
+}
+
+.unitstitle {
+    color: #CCC1FF;
+    margin: 20px auto 10px;
+}
+.unitsp {
+    color: #FFFFFF;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
